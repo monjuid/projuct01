@@ -1,0 +1,694 @@
+/* body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+/*========================================================
+   common CSS
+===========================================================*/
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+body{
+    
+    color: #666666;
+    line-height: 1.5em;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{
+    color: #2F3341;
+}
+
+.my-button, input[type="submit"]{
+    font-size: 16px;
+    line-height: 19px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #E95A0C;
+    border-style: solid;
+    border-color: #E95A0C;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 14px 44px 14px 44px;
+    cursor: pointer;
+   
+}
+
+.my-button:hover {
+    color: #E95A0C;
+    background-color: #FFFFFF;
+}
+input[type="submit"]:hover {
+    color: #E95A0C;
+    background-color: #FFFFFF;
+}
+
+
+/*======================================
+Header CSS
+=======================================*/
+#header_area{
+    background: url("images/hero-image.svg");
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+.logo_area{
+ width: 13%;
+ float: left;
+ padding: 35px 0px 35px 30px;
+}
+
+
+.header-menu-area{
+    position: fixed;
+    box-shadow: 0 0px 10px 8px rgb(0 0 0 / 10%);
+    background: #fff;
+    height: 90px;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu_area{
+    float: left;
+    width: 84%;
+    /* float: right;
+    padding: 20px 0; */
+}
+
+.menu_area{}
+.menu_area ul{text-align: right;}
+.menu_area ul li{
+    display: inline-block;
+    line-height: 10px;
+}
+.menu_area ul li a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #292727;
+    transition: .4s;
+}
+.menu_area ul li a:hover{color: #E95A0C;}
+
+
+.menu_area ul li {position: relative;}
+.menu_area ul li ul{
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+}
+.menu_area ul li ul li{
+    display: block;
+}
+
+.menu_area ul li ul li a{
+    display: block;
+    text-align: left;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    
+}
+.menu_area ul li ul li a:hover{
+    background: #EDEDED;
+}
+
+.menu_area ul li ul{
+
+    display: none;
+}
+.menu_area ul li:hover ul{
+    display: block;}
+.fa-caret-down{margin-left: -5px;}
+
+
+
+.sliderbox {
+    display: flex;
+
+}
+
+.sliderbox > div {
+flex-basis: 48%;
+margin-top: 100px;
+height: 800px;
+}
+
+.sliderbox > div button {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #E95A0C;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E95A0C;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sliderbox > div button:hover {
+    font-size: 16px;
+    line-height: 19px;
+    fill: #ffffff;
+    color: #E95A0C;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E95A0C;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+.sliderbox > div h1{
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 70px;
+    color: #2F3341;
+    font-weight: 650;
+}
+.sliderbox > div p{
+    font-size: 20px;
+}
+
+/*======================================
+What we do CSS
+=======================================*/
+#whatwedo-box-info{
+ background: #F8F9FB;
+ padding: 40px;
+}
+.whatwedo{
+
+}
+
+.whatwedo-info{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.whatwedo-info p{
+    text-align: center;
+    line-height: 26px;
+    width: 400px;
+    margin: 0 auto;
+
+
+}
+
+.whatwedo-box{
+    display: flex;
+    justify-content: space-around;
+}
+.whatwedo-box > div{
+    background:#FFFFFF;
+    flex-basis: 31.5%;
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 31px 63px 1px #e9ebf8;
+
+
+}
+
+.whatwedo-child-box1{
+
+}
+.whatwedo-box1-img, .whatwedo-box2-img, .whatwedo-box3-img{
+    width: 125px;
+    height: 125px;
+    background: #FFF4F5;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.whatwedo-box2-img{
+    background: #F5F7FF;
+}
+.whatwedo-box3-img{
+    background: #E7F8EE;
+}
+
+.whatwedo-box1-img img, .whatwedo-box2-img img, .whatwedo-box3-img img{
+    position: absolute;
+    left: 38px;
+    top: 40px;
+}
+
+.whatwedo-child-box1 h2, .whatwedo-child-box2 h2, .whatwedo-child-box3 h2{
+    padding: 20px 10px;
+}
+.whatwedo-child-box1 p, .whatwedo-child-box2 p, .whatwedo-child-box3 p{
+    height: 130px;
+}
+
+/* .elementor-button-text{
+    display: flex;
+} */
+
+.elementor-button-text a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #e95a0c;
+}
+.elementor-button-text a:hover{
+    color: #2F3341;
+    transition: 0.5s;
+}
+.elementor-button-text a:active {
+    color: #2F3341;
+}
+
+.elementor-button-text .fas{
+    margin-left: 15px;
+}
+
+
+/*======================================
+How we do it CSS
+=======================================*/
+
+#howwedoit-info{
+    background: #F8F9FB;
+    padding: 40px;
+}
+
+.howwedoit{
+    
+}
+
+.howwedoit-top-info{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.howwedoit-buttom-info{
+ display: flex;
+ margin-top: 50px;
+
+}
+.howwedoit-buttom-info > div{
+ flex-basis: 50%;
+
+}
+.howwedoit-box{
+    margin-top: 50px;
+}
+.howwedoit-box > div{
+    padding: 20px;
+}
+
+.howwedoit-banner{
+    margin-left: -40px;
+    flex-basis: 50%;
+}
+
+.howwedoit-banner-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.howwedoit-child-box1, .howwedoit-child-box2, .howwedoit-child-box3{
+    width: 70%;
+    position: relative;
+
+}
+
+.howwedoit-img1, .howwedoit-img2, .howwedoit-img3{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: #F5F7FF;
+    position: relative;
+   
+}
+
+.howwedoit-img2{
+    background: #E7F8EE;
+}
+.howwedoit-img3{
+    background: #FFF4F5;
+}
+
+.howwedoit-img1 img, .howwedoit-img2 img, .howwedoit-img3 img{
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+
+/*======================================
+Is digitalization for you? CSS
+=======================================*/
+
+
+#isdigitalizationforyou{
+    background: #fff;
+}
+
+.isdigitalizationforyou{
+    padding: 50px 20px;
+    display: flex;
+}
+.isdigitalizationforyou > div{
+    flex-basis: 50%;
+}
+
+.isdigitalizationforyou-child1{
+    margin-top: 150px;
+}
+.isdigitalizationforyou-child1 h1{
+    font-size: 44px;
+}
+
+/*======================================
+Our customers CSS
+=======================================*/
+    
+#slider-cm{
+    background: #F8F9FB;
+}
+
+.slider-info{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.slider-item{
+    padding-bottom: 50px;
+    
+}
+.slider-item img{
+width: 200px;
+height: 150px;
+ margin: 10px;
+
+}
+
+/*======================================
+About Strativ CSS
+=======================================*/
+
+#about-strativ{
+    background: #fff;
+    padding: 0px 0px 80px 0px;
+}
+
+.about-strativ-info{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.about-strativ-info p{
+    padding: 15px
+}
+
+.all-members-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.all-members-info > div{
+    flex-basis: 18%;
+}
+
+.member-child{
+    border: 1px solid #f3f0fc;
+    text-align: center;
+    border-radius: 7px;
+}
+.member-child:hover{
+    box-shadow: 10px 31px 63px 1px #e9ebf8;
+}
+
+.member-child img{
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+.view-member-btn{
+    position: relative;
+    padding-bottom: 50px;
+}
+.view-member-btn button{
+    position: absolute;
+    top: 0;
+    left: 540px;
+}
+
+/*======================================
+Work with us CSS
+=======================================*/
+
+#workwithus-area{
+    background: #F8F9FB;
+    padding: 50px 0px 0px 0px;
+}
+
+.workwithus-info{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.workwithus-info p{
+    padding: 20px;
+}
+
+.workwithus-box{
+    padding: 50px 0px 0px 0px;
+    display: flex;
+}
+.workwithus-box > div{
+    padding: 50px 0px 0px 0px;
+    flex-basis: 50%;
+}
+
+
+.workwithus-child2{
+    width: 600px;
+    position: absolute;
+    left: 52%;
+    margin-top: 200px;
+}
+
+/*======================================
+ Contact us CSS
+=======================================*/
+
+#contactus-area{
+    background: #fff;
+    padding: 50px 0;
+}
+
+.contactus-info{
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+} 
+
+.contactus-box-area{
+    display: flex;
+}
+.contactus-box-area > div{
+    flex-basis: 50%;
+}
+
+.contactus-child-box1-form{
+    width: 490px;
+    background: #F5F7FF;
+    position: absolute;
+    left: 20%;
+}
+
+.contactus-child-box1{
+    
+}
+
+.contactus-child-box1-form{
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.contactus-child-box1-form form label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px 0px 0px 30px;
+
+}
+
+input, textarea{
+    width: 90%;
+    padding: 20px 5px;
+    margin-bottom: 15px;
+    border: 1px solid #E95A0C;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    text-align: left;
+}
+
+input[type="submit"]{
+    margin: 0px 0px 50px 30px;
+}
+
+input, textarea, select:focus{outline: 0px;}
+
+/*======================================
+ footer CSS
+=======================================*/
+
+#footer-area{
+    background: #001C38;
+    padding: 200px 0;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around
+}
+
+.footer-info > div{
+    flex-basis: 17%;
+}
+
+.footer-child1{
+    flex: 2;
+    position: relative;
+}
+
+.footer-child {}
+.footer-child ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-child ul li{
+    color: rgba(255,255,255,0.9);
+    cursor: pointer;
+    margin: 15px 0;
+}
+.footer-child ul li:hover{
+    color: #E95A0C;
+    transition: 0.6s;
+
+}
+
+.footer-child1 p{
+ width: 90%;
+}
+
+.footer-child1 p, .footer-child p{
+    margin-top: 15px;
+    color: rgba(255,255,255,0.9);
+}
+
+.footer-info > div h2{
+    color: rgba(255,255,255,0.9);
+}
+
+.footer-child1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-child1 ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+}
+.footer-child1 .fab {
+    background: rgb(248, 248, 248);
+    padding: 8px 11px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+.footer-child1 .fab:hover {
+    color: #E95A0C;
+}
+
+.footer-child4 p{
+    margin-top: 15px;
+    color: rgba(255,255,255,0.9);
+}
+.footer-child4 p:hover{
+    color: #E95A0C;
+    transition: 0.5s;
+}
+
+/*======================================
+ footer buttom  CSS
+=======================================*/
+
+#footer-buttom-area{
+    background: #001C38;
+    /* padding: 20px; */
+    text-align: center;
+    height: 100px;
+}
+
+.footer-buttom-info{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255,255,255,0.19);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+.footer-buttom-info p{
+    margin-top: 40px;
+    color: rgba(255,255,255,0.7);
+}
